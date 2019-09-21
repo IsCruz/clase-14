@@ -10,8 +10,14 @@ const handleRoute = function (req, res){
 // user
 app.get('/', handleRoute);
 
-app.get('/another-route', function (req, res){
+app.post('/another-route', function (req, res){
   res.send('Hello to another route');
+})
+app.put('/put-route', function (req, res){
+  res.send('this is a put route');
+})
+app.delete('/delete-route', function(req, res){
+  res.send('this is delete route');
 })
 
 app.listen(port, function() {
