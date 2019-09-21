@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/IsCruz/clase-14/issues"
   },
-  "homepage": "https://github.com/IsCruz/clase-14#readme"
+  "homepage": "https://github.com/IsCruz/clase-14#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
